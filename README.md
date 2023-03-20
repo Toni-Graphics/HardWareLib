@@ -1,1 +1,1 @@
-# HardWareLib
+# HardWare Design Lib
