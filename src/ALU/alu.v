@@ -1,7 +1,7 @@
 
-module ALU (clk, in_a, in_b, sum, carry_in, carry_out, opcode);
-        parameter BITS = 8;
-        parameter opcode_size = 4;
+module ALU#(parameter BITS = 8,
+            parameter opcode_size = 4)
+        (clk, in_a, in_b, sum, carry_in, carry_out, opcode);
 
     input wire clk, carry_in;
     input wire [BITS-1:0] in_a;

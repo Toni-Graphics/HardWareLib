@@ -1,7 +1,7 @@
-module SRAM(clk, in, out, adr, WE, OE);
-            parameter ADR = 16;
-            parameter BITS = 32;
-            parameter CELLS = 2**ADR;
+module SRAM#(parameter ADR = 16,
+                parameter BITS = 32,
+                parameter CELLS = 2**ADR)
+            (clk, in, out, adr, WE, OE);
 
     input wire clk, WE, OE;
     input wire [BITS-1:0] in;
