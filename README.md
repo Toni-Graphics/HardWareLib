@@ -17,4 +17,6 @@ https://github.com/Toni-Graphics/HardWareLib/wiki
 
 - Compile and simulate it with:
     - Windows Powershell: `./build.sh`
-    - other: `sh build.sh` 
+    - other: `sh build.sh`
+> (i) Special thanks to aklim. To write an open source fpu. <br>
+> https://github.com/akilm/FPU-IEEE-754
